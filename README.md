@@ -1,0 +1,2 @@
+# October-Study
+SSAFY ALGORITHM STUDY
