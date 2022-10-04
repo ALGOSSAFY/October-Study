@@ -10,3 +10,5 @@ SSAFY ALGORITHM STUDY
 [알고스팟 WILDCARD](https://algospot.com/judge/problem/read/WILDCARD)
 
 [알고스팟 TRIANGLEPATH](https://algospot.com/judge/problem/read/TRIANGLEPATH)
+
+![image](https://user-images.githubusercontent.com/80592435/193776366-dc1bb666-c35f-4f7f-afc0-1172c66302be.png)
