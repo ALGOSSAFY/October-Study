@@ -55,23 +55,25 @@ int rolling(int sx, int sy, int dir)
 {
     //해당 시작지에서 롤링하면서 점수 나온결과
     path[sx][sy][dir] = 1;
-    int x = sx + dx[dir];
-    int y = sy + dy[dir];
+    int x = sx;
+    int y = sy ;
     int result = 0;
-    if (!calc_range(x, y))
-    {
-        x = sx;
-        y = sy;
-        result++;
-    }
-    //이리저리 롤링
     while (1)
     {
-        path[x][y][dir] = 1;
+        x += dx[dir];
+        y += dy[dir];
+        if (!calc_range(x, y))
+        {
+            result++;
+            x -= dx[dir];
+            y -= dy[dir];
+            dir = chg_dir[5][dir];
+        }
         if (x == sx && y == sy)
             break;
         if (arr[x][y] == -1)
             break;
+        path[x][y][dir] = 1;
         if (arr[x][y] >= 1 && arr[x][y] <= 5)
         {
             result++;
@@ -102,16 +104,7 @@ int rolling(int sx, int sy, int dir)
 
 
         }
-        x += dx[dir];
-        y += dy[dir];
-        if (!calc_range(x, y))
-        {
-            result++;
-            x -= dx[dir];
-            y -= dy[dir];
-            dir += 2;
-            dir %= 4;
-        }
+
 
     }
     return result;
@@ -124,6 +117,8 @@ int main() {
     {
         memset(arr, 0, sizeof(arr));
         memset(path, 0, sizeof(path));
+        for(int i=0;i<11;i++)
+          portal[i].clear();
         result = 0;
         cin >> N;
         for (int r = 0; r < N; r++)
