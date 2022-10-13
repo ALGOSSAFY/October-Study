@@ -29,7 +29,7 @@ void dfs(Node start, Node now, int dir, int bump) {
     //cout << now.y << " " << now.x << "\n";
  
     while (true) {
-        // 도착하자마자 움직이기
+        // 도착하자마자 움직여서 다음 위치 확정하기
         int ny = now.y + dy[dir];
         int nx = now.x + dx[dir];
  
@@ -39,9 +39,10 @@ void dfs(Node start, Node now, int dir, int bump) {
             dir = bounce[4][dir];
             bump++;
         }
- 
+     
+        // 다음 위치 확정된 상태
         int type = board[ny][nx];
-        // base case
+
         if (type == -1) {
             bump_max = max(bump_max, bump);
             return;
@@ -50,7 +51,6 @@ void dfs(Node start, Node now, int dir, int bump) {
             bump_max = max(bump_max, bump);
             return;
         }
-        // recursive case
         if (1 <= type && type <= 5) {
             dir = bounce[type - 1][dir];
             bump++;
