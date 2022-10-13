@@ -32,3 +32,16 @@ SSAFY ALGORITHM STUDY
 [알고스팟 JLIS](https://algospot.com/judge/problem/read/JLIS)
 
 카라츠바 이해
+
+## 10-20(종만북)
+
+[알고스팟 QUANTIZE](https://algospot.com/judge/problem/read/QUANTIZE)
+
+[알고스팟 TILING2](https://algospot.com/judge/problem/read/TILING2)
+
+[알고스팟 TRIPATHCNT](https://algospot.com/judge/problem/read/TRIPATHCNT)
+
+[알고스팟 SNAIL](https://algospot.com/judge/problem/read/SNAIL)
+
+![KakaoTalk_20221013_205718664](https://user-images.githubusercontent.com/80592435/195590675-2b5d054f-6433-4be3-9440-1e596ae8b5c3.png)
+
