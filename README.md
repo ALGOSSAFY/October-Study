@@ -1,6 +1,10 @@
 # October-Study
 SSAFY ALGORITHM STUDY
 
+# STUDY ENDED
+![istockphoto-1369073092-612x612](https://user-images.githubusercontent.com/80592435/197910797-dbb67ae3-3a62-4433-a550-f9953b2fdf9a.jpg)
+
+
 ##   10-06(종만북)
 
 [알고스팟 FANMEETING](https://algospot.com/judge/problem/read/FANMEETING)
@@ -44,4 +48,5 @@ SSAFY ALGORITHM STUDY
 [알고스팟 SNAIL](https://algospot.com/judge/problem/read/SNAIL)
 
 ![KakaoTalk_20221013_205718664](https://user-images.githubusercontent.com/80592435/195590675-2b5d054f-6433-4be3-9440-1e596ae8b5c3.png)
+
 
