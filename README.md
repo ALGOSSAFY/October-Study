@@ -1,9 +1,6 @@
 # October-Study
 SSAFY ALGORITHM STUDY
 
-# STUDY ENDED
-![istockphoto-1369073092-612x612](https://user-images.githubusercontent.com/80592435/197910797-dbb67ae3-3a62-4433-a550-f9953b2fdf9a.jpg)
-
 
 ##   10-06(종만북)
 
@@ -37,7 +34,7 @@ SSAFY ALGORITHM STUDY
 
 카라츠바 이해
 
-## 10-20(종만북)
+## 10-27(종만북)
 
 [알고스팟 QUANTIZE](https://algospot.com/judge/problem/read/QUANTIZE)
 
